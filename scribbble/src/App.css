@@ -1,25 +1,29 @@
 .App {
-  text-align: center;
+    text-align: center;
+}
+
+.page-header {
+    text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 .App-intro {
-  font-size: large;
+    font-size: large;
 }
 
 /* Post Styles */
@@ -27,15 +31,36 @@
     float: right;
 }
 
-.panel-footer > svg {
-    float: right;
+svg:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transform: scale(1.2);
+    transition: 100ms ease-in;
 }
 
+svg {
+    margin: 0px 0.4rem;
+}
+
+.panel-footer > svg,
 .panel-footer > .label {
     float: right;
 }
 
+.panel-heading > svg {
+    float: right;
+}
+
+.panel-body > .label,
+.panel-body > svg {
+    float: right;
+}
+
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }

@@ -1,22 +1,22 @@
-# Readable API Server
+# Scribbble 
 
-This is the starter project for the final assessment project for Udacity's Redux course where you will build a content and comment web app. Users will be able to post content to predefined categories, comment on their posts and other users' posts, and vote on posts and comments. Users will also be able to edit and delete posts and comments.
+This is the swift little forum written on JavaScript in learning purpose.
+You can add, change and delete posts, leave comments, and sort entities by vote score and time.
 
-This repository includes the code for the backend API Server that you'll use to develop and interact with the front-end portion of the project.
+## Usage
 
-## Start Developing
+To get started with the application you will need to start the API server and the user interface
 
-To get started developing right away:
-
-* Install and start the API server
+* Start the server
     - `cd api-server`
     - `npm install`
     - `node server`
-* In another terminal window, use Create React App to scaffold out the front-end
-    - `create-react-app frontend`
-    - `cd frontend`
+* Start the client
+    - `cd scribbble`
+    - `npm install`
     - `npm start`
 
-## API Server
+## Contributing
 
+You can improve the project by adding authentication and login page.
 Information about the API server and how to use it can be found in its [README file](api-server/README.md).
